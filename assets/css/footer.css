@@ -1,0 +1,21 @@
+.main-tcc-footer {
+    background-color: rgb(24, 22, 22);
+    padding: 10px;
+    text-align: center;
+
+    color: #fff;
+}
+
+.main-tcc-footer-global {
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+
+    margin: auto;
+}
+
+.footer-copy {
+    padding: 2px;
+    background-color: rgb(28, 29, 31);
+    font-size: 0.8em;
+}

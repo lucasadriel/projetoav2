@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg,rgba(0,35,151,1) 0%,rgba(0,178,198,1) 100%);
+    overflow-y: hidden;
+}
+
+.aviso {
+    background-color: red;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: 600;
+
+    width: 100vw;
+}
+
+.login-title {
+    text-align: center;
+    color: #fff;
+    margin: 50px 0;
+}
+
+.form {
+    background-color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px;
+    width: 500px;
+
+    margin: auto;
+
+    border-radius: 10px;
+}
+
+.form input, select {
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+
+    width: 100%;
+
+    border: none;
+    background-color: #ccc;
+}
+
+
+.button-login {
+    background-color: #3aadd9 !important;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.button-login:hover {
+    cursor: pointer;
+}

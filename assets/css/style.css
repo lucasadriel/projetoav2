@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.main-tcc {
+    max-width: 1100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin: 20px auto;
+}
+
+.main-tcc-trabalho {
+    flex-basis: calc(25% - 20px);
+    background-color: rgb(253, 249, 249);
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(136, 124, 124, 0.8);
+
+    text-align: center;
+
+    margin: 20px 10px;
+
+    transform: scale(0.9);
+    transition: all ease-in-out 0.4s;
+}
+
+.main-tcc-trabalho:hover {
+    transform: scale(1);
+    box-shadow: 0 0 8px rgba(95, 89, 89, 1);
+}
+
+.main-tcc-trabalho img {
+    border-radius: 10px 10px 0 0;
+}
+
+.main-tcc-title {
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.main-tcc-button {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* aluno */
+.aluno-title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.aluno-subtitle {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.tabelas {
+    max-width: 1100px;
+    margin: auto;
+}
+/**/
+
+/* cadastro tcc */
+.cadastro-tcc {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.cadastro-title-tcc {
+    font-weight: 600;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 15px;
+}
+/**/
+
+/* tcc completo */
+.tcc-completo {
+    max-width: 900px;
+    margin: auto;
+    text-align: justify;
+
+    margin-bottom: 50px;
+}
+
+.margin {
+    margin: 50px 0 50px 0;
+}
+
+.tcc-completo-title-trabalho,
+.tcc-completo-title-aluno {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+/**/
+
+/* orientacao */
+.orientacao {
+    max-width: 900px;
+    margin: auto;
+    text-align: justify;
+}
+/**/
